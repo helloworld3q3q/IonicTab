@@ -1,0 +1,65 @@
+<ion-view  view-title="首页">
+	
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear"   ng-click="sideLeftMenu()" ng-class="{true: 'ion-navicon', false:'ion-arrow-left-c'}[isActive.leftActive]"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear " ng-click="sideRightMenu()" ng-class="{true: 'ion-search', false:'ion-arrow-right-c'}[isActive.rightActive]"></button>
+    </ion-nav-buttons>
+    
+    <ion-content class="has-header" overflow-scroll='false'>    
+        <ion-slide-box  auto-play="true"  does-continue="true" slide-interval="2000">
+            <ion-slide ng-repeat="b_item in bannerList">
+                <a href="{{b_item.url}}" >
+                    <img ng-src="{{b_item.img}}" class="full-image">
+                </a>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="pane-list row addr-now">
+            <span ng-bind="addr.nowaddr.name" ></span>
+            <a class="addr-get" goaddr="goaddr" href="#/map" data-latitude="{{addr.nowaddr.latitude}}" data-longitude="{{addr.nowaddr.longitude}}">
+                导航<em class="addr-icon"></em>
+            </a>
+        </div>
+        <div class="pane-list">
+            <ul class="row justify coupon-list">
+                <li class="item coupon-item" ng-repeat="coupon_item in couponList">
+                    <div class="coupon-con ">
+                        <div class="row justify">
+                            <div class="coupon-avatar">
+                                <img src="images/store_coupon.png">
+                            </div>
+                            <div class="coupon-msg">
+                                <p class="coupon_jg">¥{{coupon_item.money}}</p>
+                                <p class="coupon_tj">满{{coupon_item.use}}使用</p>
+                            </div>
+                        </div>
+                        <p class="coupon-line"></p>
+                        <time class="coupon-time" ng-bind="coupon_item.time"></time>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="row coupon-more center">更多好券，去优惠券中心看看<em></em></a>
+        </div>
+        <div class="pane-list pane-list-te">
+            <div class="pane-list-top row">
+                <em>特</em>
+                <h3>本周特价</h3>
+                <a href="" class="pane-list-top-btn">查看更多</a>
+            </div>
+            <ul class="row">
+                <li class="col col-50" ng-repeat="t_item in dazheList">
+                    <a href="{{t_item.url}}">
+                        <img ng-src="{{t_item.img}}">
+                    </a>
+                    <p class="pane-list-te-name" ng-bind="t_item.name"></p>
+                    <div>
+                        <span class="pane-list-te-nm" ng-bind="'¥'+t_item.nowMoney"></span>
+                        <span class="pane-list-te-om" ng-bind="'¥'+t_item.oldMoeny"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+    </ion-content>
+</ion-view>

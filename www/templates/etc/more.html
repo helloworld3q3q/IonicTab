@@ -1,0 +1,13 @@
+<ion-view view-title="商场切换">
+<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear"   ng-click="sideLeftMenu()" ng-class="{true: 'ion-navicon', false:'ion-arrow-left-c'}[isActive.leftActive]"></button>
+    </ion-nav-buttons>
+    <ion-content overflow-scroll='false'>
+    	<div class="addr-list">
+            <ion-list>
+                <ion-item ng-repeat="addr_item in addr.item" ng-bind="addr_item.name" data-latitude="{{addr_item.latitude}}" data-longitude="{{addr_item.longitude}}">{{addr}}
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>
