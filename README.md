@@ -5,15 +5,19 @@ index.json
     "banner": {
         "item":[
             {
-                "img":"images/tmp/1.jpg", 
+                "img":"http://m.360buyimg.com/mobilecms/s720x350_jfs/t3226/274/2802925667/129336/2aeed9b9/57e69c9cN71590181.jpg!q70.jpg", 
                 "url":"www.baidu.com"
             },
             {
-                "img":"images/tmp/2.jpg",
+                "img":"http://img30.360buyimg.com/da/jfs/t3193/45/2695255807/92133/bc68d414/57e4e7cbN3dd4914c.jpg",
                 "url":"http://www.sina.com.cn/"
             },
             {
-                "img":"images/tmp/3.jpg",
+                "img":"http://m.360buyimg.com/mobilecms/s720x350_jfs/t3094/157/2725352852/94866/39c615df/57e4f4b5N6e3819f3.jpg!q70.jpg",
+                "url":"http://www.qq.com/"
+            },
+            {
+                "img":"http://img13.360buyimg.com/da/jfs/t3265/45/2633355154/82473/31907120/57e35123N21d6ecbc.jpg",
                 "url":"http://www.qq.com/"
             }
         ]
@@ -65,26 +69,26 @@ index.json
                 "money": 787, 
                 "use": 7878, 
                 "isGet": 0, 
-                "url": "http://mall.e-wj.dev:40080/store/41"
+                "url": "http://www.baidu.com/store/41"
             }, 
             {
                 "time": "2016.01.01-2017.05.14 ", 
                 "money": 787, 
                 "use": 7878, 
                 "isGet": 1, 
-                "url": "http://mall.e-wj.dev:40080/store/44"
+                "url": "http://www.baidu.com/store/44"
             }
         ]
     }, 
     "dazhe": {
         "item": [
             {
-                "url": "http://mall.e-wj.dev:40080/ka/101", 
+                "url": "http://www.baidu.com/ka/101", 
                 "jiage": 1000, 
                 "use": 1200
             }, 
             {
-                "url": "http://mall.e-wj.dev:40080/ka/102", 
+                "url": "http://www.baidu.com/ka/102", 
                 "jiage": 1800, 
                 "use": 12200
             }
@@ -93,61 +97,32 @@ index.json
     "tejia": {
         "item": [
             {
-                "url": "http://mall.e-wj.dev:40080/ware/43", 
-                "img": "http://static.e-wj.intra/store/ware/b5/fd/b58657de15ebc358567cdc9f01ed2f2cf92841fd.png", 
+                "url": "http://www.baidu.com/ware/43", 
+                "img": "/webs/www/images/tmp/s_1.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
             }, 
             {
-                "url": "http://mall.e-wj.dev:40080/ware/43", 
-                "img": "http://static.e-wj.intra/store/ware/74/9d/74d70d9cb710a05b494b88cd271652d34bcf139d.png", 
+                "url": "http://www.baidu.com/ware/43", 
+                "img": "/webs/www/images/tmp/s_1.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
             },
             {
-                "url": "http://mall.e-wj.dev:40080/ware/43", 
-                "img": "http://static.e-wj.intra/store/ware/b5/fd/b58657de15ebc358567cdc9f01ed2f2cf92841fd.png", 
+                "url": "http://www.baidu.com/ware/43", 
+                "img": "/webs/www/images/tmp/s_2.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
             }, 
             {
-                "url": "http://mall.e-wj.dev:40080/ware/43", 
-                "img": "http://static.e-wj.intra/store/ware/74/9d/74d70d9cb710a05b494b88cd271652d34bcf139d.png", 
+                "url": "http://www.baidu.com/ware/43", 
+                "img": "/webs/www/images/tmp/s_1.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
-            }
-        ]
-    }, 
-    "tuijian": {
-        "item": [
-            {
-                "url": "http://mall.e-wj.dev:40080/store/47", 
-                "img": "http://static.e-wj.intra/store/ware/b5/fd/b58657de15ebc358567cdc9f01ed2f2cf92841fd.png", 
-                "name": "你好"
-            }, 
-            {
-                "url": "http://mall.e-wj.dev:40080/store/47", 
-                "img": "http://static.e-wj.intra/store/ware/b5/fd/b58657de15ebc358567cdc9f01ed2f2cf92841fd.png", 
-                "name": "你好"
-            }, 
-            {
-                "url": "http://mall.e-wj.dev:40080/store/47", 
-                "img": "http://static.e-wj.intra/store/ware/b5/fd/b58657de15ebc358567cdc9f01ed2f2cf92841fd.png", 
-                "name": "你好"
-            }, 
-            {
-                "url": "http://mall.e-wj.dev:40080/store/1063", 
-                "img": "http://static.e-wj.intra/store/ware/d2/b8/d271f68513cdc28113e2a96383e38c6b7a199cb8.png", 
-                "name": "nimei"
-            }, 
-            {
-                "url": "http://mall.e-wj.dev:40080/store/1078", 
-                "img": "http://static.e-wj.intra/store/ware/12/47/1284849fbfb00d4e00ce90bc089c1ec8b656d347.jpg", 
-                "name": "kao"
             }
         ]
     }
