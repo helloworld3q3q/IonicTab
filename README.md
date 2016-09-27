@@ -6,7 +6,7 @@
     "banner": {
         "item":[
             {
-                "img":"http://m.360buyimg.com/mobilecms/s720x350_jfs/t3226/274/2802925667/129336/2aeed9b9/57e69c9cN71590181.jpg!q70.jpg", 
+               "img":"http://m.360buyimg.com/mobilecms/s720x350_jfs/t3226/274/2802925667/129336/2aeed9b9/57e69c9cN71590181.jpg!q70.jpg", 
                 "url":"www.baidu.com"
             },
             {
