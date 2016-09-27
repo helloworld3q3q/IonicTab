@@ -1,6 +1,7 @@
 # IonicTab
 ########################################################
-index.json
+###########index.json##############################
+########################################################
 {
     "banner": {
         "item":[
@@ -98,28 +99,28 @@ index.json
         "item": [
             {
                 "url": "http://www.baidu.com/ware/43", 
-                "img": "/webs/www/images/tmp/s_1.jpg", 
+                "img": "http://m.360buyimg.com/babel/s355x355_jfs/t3115/170/2742761354/72516/308dc043/57e546d8N6442e06a.jpg!q70.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
             }, 
             {
                 "url": "http://www.baidu.com/ware/43", 
-                "img": "/webs/www/images/tmp/s_1.jpg", 
+                "img": "http://m.360buyimg.com/babel/s355x355_jfs/t3115/170/2742761354/72516/308dc043/57e546d8N6442e06a.jpg!q70.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
             },
             {
                 "url": "http://www.baidu.com/ware/43", 
-                "img": "/webs/www/images/tmp/s_2.jpg", 
+                "img": "http://m.360buyimg.com/babel/s355x355_jfs/t3115/170/2742761354/72516/308dc043/57e546d8N6442e06a.jpg!q70.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
             }, 
             {
                 "url": "http://www.baidu.com/ware/43", 
-                "img": "/webs/www/images/tmp/s_1.jpg", 
+                "img": "http://m.360buyimg.com/babel/s355x355_jfs/t3115/170/2742761354/72516/308dc043/57e546d8N6442e06a.jpg!q70.jpg", 
                 "name": "test_TOTO 卫浴抽_43_特卖", 
                 "nowMoney": 40, 
                 "oldMoeny": 45
@@ -128,4 +129,4 @@ index.json
     }
 }
 ########################################################
-IonicTab
+#IonicTab
