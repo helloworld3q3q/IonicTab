@@ -8,10 +8,10 @@
     </ion-nav-buttons>
     
     <ion-content class="has-header" overflow-scroll='false'>    
-        <ion-slide-box  auto-play="true"  does-continue="true" slide-interval="2000">
+        <ion-slide-box ng-if="bannerList" on-slide-changed="slideHasChanged($index)"  delegate-handle="slideimgs" does-continue="true"  auto-play="true"  does-continue="true" slide-interval="2000">
             <ion-slide ng-repeat="b_item in bannerList">
-                <a href="{{b_item.url}}" >
-                    <img ng-src="{{b_item.img}}" class="full-image">
+                <a ng-href="{{b_item.url}}" >
+                    <img src="{{b_item.img}}" class="full-image" >
                 </a>
             </ion-slide>
         </ion-slide-box>

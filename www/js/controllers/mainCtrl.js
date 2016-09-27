@@ -10,7 +10,6 @@ define(['ionicAngular'], function (ionicAngular) {
         $scope.header = {
             show: true
         };*/  
-
         $scope.showToggle = function(target){
             $scope[target].show = !$scope[target].show;
         };

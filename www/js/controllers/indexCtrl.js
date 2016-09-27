@@ -10,9 +10,7 @@ define(['mainCtrl'], function () {
             $scope.bannerList = data.banner.item;
             $scope.couponList = data.coupon.item;
             $scope.dazheList = data.tejia.item;
-
         });
-
     }
 
     ctrl.$inject = ['$scope', '$mainServices', '$indexServices', '$ionicTabsDelegate', '$ionicSlideBoxDelegate'];
